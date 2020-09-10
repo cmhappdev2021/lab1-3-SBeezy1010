@@ -9,8 +9,8 @@ print (roomArea)
 let perimeter = width + length
 print (perimeter)
 // Print what you would expect the result of integer division of 10 divided by 3 to be. Create a constant, integerDivisionResult that is the result of 10 divided by 3, and print the value.
-
-
+print(3.34)
+let integerDivisionResult = 3.34
 // Now create two constants, double10 and double3, set to 10 and 3, and declare their types as Double values. Declare a final constant divisionResult equal to the result of double10 divided by double3. Print the value of divisionResult. How does this differ from the value when using integer division?
 
 
