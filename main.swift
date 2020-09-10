@@ -13,8 +13,8 @@ print(3.34)
 let integerDivisionResult = 3.34
 // Now create two constants, double10 and double3, set to 10 and 3, and declare their types as Double values. Declare a final constant divisionResult equal to the result of double10 divided by double3. Print the value of divisionResult. How does this differ from the value when using integer division?
 let double10 = 10.0
-let double3 = 3
-let divisionResult = double10/double3
+let double3 = 3.0
+let divisionResult = double10 / double3
 /* Given the value pi (3.1415927), create a radius constant with a value of 5.0, then calculate the diameter and circumference of the circle using the following equations, and print the results:
 diameter = 2 * radius
 
@@ -33,12 +33,11 @@ let heartRate2D = 72.0
 let heartRate3D = 99.0
 // Imagine that partway through the day a user has taken 3,467 steps out of the 10,000 step goal. Create constants steps and goal. Both will need to be of type Double so that you can perform accurate calculations. steps should be assigned the value 3,467, and goal should be assigned 10,000. Create a constant percentOfGoal that equals an expression that evaluates to the percent of the goal that has been achieved so far.
 let steps = 3_467.0
-let goal = 10_000.o
+let goal = 10_000.0
 // Declare a variable whose value begins at 10. Using addition, update the value to 15 using the compound assignment operator. Using multiplication, update the value to 30 using compound assignment. Print out the variable's value after each assignment.
-
-
+var 10+5
+var 10*3
 /* Create a variable called piggyBank that begins at 0. You will use this to keep track of money you earn and spend. For each point below, use the right compound assignment operator to update the balance in your piggy bank.
-
 Your neighbor gives you 10 dollars for mowing her lawn
 You earn 20 more dollars throughout the week doing odd jobs
 You spend half your money on dinner and a movie
@@ -46,11 +45,11 @@ You triple what's left in your piggy bank by washing windows
 You spend 3 dollars at a convenience store
 
 Print the balance of your piggy bank after each step. */
-
-
+var piggyBank = 0.3
+var piggyBankBalance = 12.9 
 // The most basic feature of your fitness tracking app is counting steps. Create a variable steps and set it equal to 0. Then increment its value by 1 to simulate a user taking a step.
-
-
+var = 0
+var = 0+1
 /* In addition to tracking steps, your fitness tracking app tracks distance traveled. Create a variable distance of type Double and set it equal to 50. This will represent the user having traveled 50 feet.
 
 You decide, however, to display the distance in meters. 1 meter is approximately equal to 3 feet. Use a compound assignment operator to convert distance to meters. Print the result. */
