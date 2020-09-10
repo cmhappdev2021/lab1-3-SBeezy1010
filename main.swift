@@ -14,7 +14,7 @@ let integerDivisionResult = 3.34
 // Now create two constants, double10 and double3, set to 10 and 3, and declare their types as Double values. Declare a final constant divisionResult equal to the result of double10 divided by double3. Print the value of divisionResult. How does this differ from the value when using integer division?
 let double10 = 10.0
 let double3 = 3
-let divisionResult = double/10double3
+let divisionResult = double10/double3
 /* Given the value pi (3.1415927), create a radius constant with a value of 5.0, then calculate the diameter and circumference of the circle using the following equations, and print the results:
 diameter = 2 * radius
 
@@ -30,10 +30,10 @@ let heartRate3 = 99
 // Now create th ree more constants, heartRate1D, heartRate2D, and heartRate3D, equal to the same values as heartRate1, heartRate2, and heartRate3. These new constants should be of type Double. Create a constant addedHRD equal to the sum of all three heart rates. Create a constant called averageHRD that equals the addedHRD divided by 3 to get the average of your new heart rate constants. Print the result. Does this differ from your previous average? Why or why not?
 let heartRate1D = 61.0
 let heartRate2D = 72.0
-let heartRate2D = 99.0
+let heartRate3D = 99.0
 // Imagine that partway through the day a user has taken 3,467 steps out of the 10,000 step goal. Create constants steps and goal. Both will need to be of type Double so that you can perform accurate calculations. steps should be assigned the value 3,467, and goal should be assigned 10,000. Create a constant percentOfGoal that equals an expression that evaluates to the percent of the goal that has been achieved so far.
-
-
+let steps = 3_467.0
+let goal = 10_000.o
 // Declare a variable whose value begins at 10. Using addition, update the value to 15 using the compound assignment operator. Using multiplication, update the value to 30 using compound assignment. Print out the variable's value after each assignment.
 
 
