@@ -7,7 +7,7 @@ let roomArea = area/2
 print (roomArea)
 // Create a perimeter constant whose value equals width plus width plus height plus height, then print out the result.
 let perimeter = width + length
-
+print (perimeter)
 // Print what you would expect the result of integer division of 10 divided by 3 to be. Create a constant, integerDivisionResult that is the result of 10 divided by 3, and print the value.
 
 
