@@ -58,17 +58,17 @@ steps5 += 1
 You decide, however, to display the distance in meters. 1 meter is approximately equal to 3 feet. Use a compound assignment operator to convert distance to meters. Print the result. */
 var distance = 50.0
 distance *= 3.0
-Print(distance)
+print(distance)
 // Print out what you think 10 + 2 * 5 evaluates to. Then print out the actual expression (i.e. print(10 + 2 * 5))
 //100
 print(10 + 2 * 5)
 // In a separate print statement, add in the necessary parentheses so that addition takes place before multiplication.
-print(10 + 2) * 5)
+print((10 + 2) * 5)
 // Print out what you think 4 * 9 - 6 / 2 evaluates to. Then print out the actual expression.
-
-
+//33
+print(4 * 9 - 6 / 2)
 // In a separate print statement, add in the necessary parentheses so that the subtraction is prioritized over the multiplication and division.
-
+print(4 * (9 - 6) / 2)
 
 // If you completed the Fitness Calculations exercise, you calculated an average heart rate to display to the user. However, using proper order of operations you can do this in fewer steps. Create three separate heart rate constants, all of type Double, with values between 60 and 100. Then create a constant equal to the average heart rate. If you use correct order of operations you can do the heart calculation in one line.
 
