@@ -35,8 +35,10 @@ let heartRate3D = 99.0
 let steps = 3_467.0
 let goal = 10_000.0
 // Declare a variable whose value begins at 10. Using addition, update the value to 15 using the compound assignment operator. Using multiplication, update the value to 30 using compound assignment. Print out the variable's value after each assignment.
-var 10+5
-var 10*3
+var aNumber = 10
+aNumber += 5
+print(aNumber)
+aNumber *= 3
 /* Create a variable called piggyBank that begins at 0. You will use this to keep track of money you earn and spend. For each point below, use the right compound assignment operator to update the balance in your piggy bank.
 Your neighbor gives you 10 dollars for mowing her lawn
 You earn 20 more dollars throughout the week doing odd jobs
@@ -48,15 +50,15 @@ Print the balance of your piggy bank after each step. */
 var piggyBank = 0.3
 var piggyBankBalance = 12.9 
 // The most basic feature of your fitness tracking app is counting steps. Create a variable steps and set it equal to 0. Then increment its value by 1 to simulate a user taking a step.
-var = 0
-var = 0+1
-/* In addition to tracking steps, your fitness tracking app tracks distance traveled. Create a variable distance of type Double and set it equal to 50. This will represent the user having traveled 50 feet.
+var steps5 = 0
+steps5 += 1
+
+/* In addition to tracking steps, your fitness tracking app tracks distance traveled. Create a variable distance of type Double and set it equal to 50. This will represent the user having traveled 50 feet./*
 
 You decide, however, to display the distance in meters. 1 meter is approximately equal to 3 feet. Use a compound assignment operator to convert distance to meters. Print the result. */
 
 
 // Print out what you think 10 + 2 * 5 evaluates to. Then print out the actual expression (i.e. print(10 + 2 * 5))
-
 
 // In a separate print statement, add in the necessary parentheses so that addition takes place before multiplication.
 
